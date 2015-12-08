@@ -1,0 +1,41 @@
+{
+  "name": "year-zero",
+  "version": "1.0.0",
+  "description": "Another Redux example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgtLucas/year-zero.git"
+  },
+  "keywords": [],
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/year-zero/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/year-zero#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.1.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.0",
+    "redux-logger": "^2.0.2",
+    "redux-thunk": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-react-transform": "^1.1.0",
+    "expect": "^1.6.0",
+    "express": "^4.13.3",
+    "node-libs-browser": "^0.5.2",
+    "react-transform-hmr": "^1.0.0",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.0"
+  }
+}
