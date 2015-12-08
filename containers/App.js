@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   handleChange(nextReddit) {
-    this.props.dispatch(selectedReddit(nextReddit));
+    this.props.dispatch(selectReddit(nextReddit));
   }
 
   handleRefreshClick(e) {
@@ -82,7 +82,7 @@ App.propTypes = {
 }
 
 function mapStateToProps(state) {
-  const { selectReddit, postsByReddit } = state;
+  const { selectedReddit, postsByReddit } = state;
   const {
     isFetching,
     lastUpdated,
