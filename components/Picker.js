@@ -15,7 +15,7 @@ export default class Picker extends Component {
           )}
         </select>
       </span>
-    )
+    );
   }
 }
 
