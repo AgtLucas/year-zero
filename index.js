@@ -1,4 +1,4 @@
-import 'babel-core/pollyfil';
+import 'babel-core/pollyfill';
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
