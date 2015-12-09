@@ -1,3 +1,5 @@
+'use strict';
+
 import fetch from 'isomorphic-fetch';
 
 export const REQUEST_POSTS = 'REQUEST_POSTS';
